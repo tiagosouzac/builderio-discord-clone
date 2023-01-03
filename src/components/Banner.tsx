@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import downloadIcon from '../assets/icons/download.svg'
+import { DownloadSimple } from 'phosphor-react'
 import illustration1 from '../assets/images/illustration-1.svg'
 import illustration2 from '../assets/images/illustration-2.svg'
 import illustration3 from '../assets/images/illustration-3.svg'
@@ -26,12 +26,7 @@ export default function Banner({ title, description }: Props) {
             className="h-14 px-8 rounded-[28px] text-lg font-medium bg-white flex items-center gap-2"
             href="/"
           >
-            <Image
-              src={downloadIcon}
-              alt="Download Discord"
-              width={28}
-              height={28}
-            />
+            <DownloadSimple size={28} />
             Download for Linux
           </a>
 
