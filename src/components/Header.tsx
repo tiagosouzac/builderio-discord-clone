@@ -3,7 +3,7 @@ import logoImg from '../assets/logo.svg'
 
 export const Header = () => {
   return (
-    <header className="max-w-6xl h-20 mx-auto grid grid-cols-[124px_auto_124px] justify-between items-center absolute left-0 right-0">
+    <header className="max-w-6xl h-20 mx-auto grid grid-cols-[124px_auto_124px] justify-between items-center absolute left-0 right-0 z-10">
       <Image src={logoImg} alt="Discord" width={124} height={34} />
 
       <ul className="flex gap-10">
